@@ -129,10 +129,44 @@ $ ./ola_usuario_3 Eu
 $ Ola Eu
 $ Numero de entradas = 2
 
+
+###### Codigo trabalhado  ######
+
+#include <stdio.h>
+
+int main(int argc, char **argv){
+        printf("Argumentos: %s \n", argv[1]);
+
+return 0;
+}
+
+###### Fim #######
+
+
     Crie um código em C que imprime todos os argumentos de entrada fornecidos pelo usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_argumentos':
 
 $ ./ola_argumentos Eu Mesmo e Minha Pessoa
 $ Argumentos: Eu Mesmo e Minha Pessoa
+###### Codigo trabalhado  ######
+
+#include<stdio.h>
+
+int main (int argc, char **argv){
+
+        int i = 1;
+        printf("Argumentos: %s \n");
+
+        while (i!= argc)
+        {
+
+                printf("%s", argv [i]);
+                i++;;
+        }
+
+return 0;
+}
+
+###### Fim #######
 
     Crie uma função que retorna a quantidade de caracteres em uma string, usando o seguinte protótipo: int Num_Caracs(char *string); Salve-a em um arquivo separado chamado 'num_caracs.c'. Salve o protótipo em um arquivo chamado 'num_caracs.h'. Compile 'num_caracs.c' para gerar o objeto 'num_caracs.o'.
 
