@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 aPara todas as questões, utilize as funções da biblioteca `stdio.h` de leitura e de escrita em arquivo (`fopen()`, `fclose()`, `fwrite()`, `fread()`, dentre outras). Compile os códigos com o gcc e execute-os via terminal.
+=======
+Para todas as questões, utilize as funções da biblioteca `stdio.h` de leitura e de escrita em arquivo (`fopen()`, `fclose()`, `fwrite()`, `fread()`, dentre outras). Compile os códigos com o gcc e execute-os via terminal.
+>>>>>>> 1aa4f077cbb4fb7740cc3afd49ad20f1d74ecb81
 
 1. Crie um código em C para escrever "Ola mundo!" em um arquivo chamado 'ola_mundo.txt'.
 
 ########## Inicio ##################
 
 
+<<<<<<< HEAD
 #include<stdio.h>
+=======
+#include<stdio.h> 
+>>>>>>> 1aa4f077cbb4fb7740cc3afd49ad20f1d74ecb81
 
 int main(){
 
@@ -43,7 +51,11 @@ $ Idade: 30 anos
 
 ########## Inicio ##################
 
+<<<<<<< HEAD
 #include<stdio.h>
+=======
+#include<stdio.h> 
+>>>>>>> 1aa4f077cbb4fb7740cc3afd49ad20f1d74ecb81
 
 int main(){
 
@@ -85,7 +97,11 @@ $ Idade: 30 anos
 ```
 ########## Inicio ##################
 
+<<<<<<< HEAD
 #include<stdio.h>
+=======
+#include<stdio.h> 
+>>>>>>> 1aa4f077cbb4fb7740cc3afd49ad20f1d74ecb81
 
 int main(int arg, char *argv[]){
 
@@ -129,7 +145,11 @@ $ Ola mundo cruel! Ola universo ingrato!
 int main(){
 	char Linha[100];
 	char *result;
+<<<<<<< HEAD
 	FILE *arq;
+=======
+	FILE *arq; 
+>>>>>>> 1aa4f077cbb4fb7740cc3afd49ad20f1d74ecb81
 	arq = fopen("ola.txt","rt");
 
 	if (arq == NULL)
@@ -148,7 +168,11 @@ int main(){
 	fclose(arq);
 	printf("Os dados foram gravados com sucesso! \n");
 
+<<<<<<< HEAD
 return 0;
+=======
+return 0; 
+>>>>>>> 1aa4f077cbb4fb7740cc3afd49ad20f1d74ecb81
 }
 
 ########## FIM ##################
