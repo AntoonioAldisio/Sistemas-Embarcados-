@@ -1,11 +1,11 @@
-Para todas as questões, utilize as funções da biblioteca `stdio.h` de leitura e de escrita em arquivo (`fopen()`, `fclose()`, `fwrite()`, `fread()`, dentre outras). Compile os códigos com o gcc e execute-os via terminal.
+aPara todas as questões, utilize as funções da biblioteca `stdio.h` de leitura e de escrita em arquivo (`fopen()`, `fclose()`, `fwrite()`, `fread()`, dentre outras). Compile os códigos com o gcc e execute-os via terminal.
 
 1. Crie um código em C para escrever "Ola mundo!" em um arquivo chamado 'ola_mundo.txt'.
 
 ########## Inicio ##################
 
 
-#include<stdio.h> 
+#include<stdio.h>
 
 int main(){
 
@@ -43,7 +43,7 @@ $ Idade: 30 anos
 
 ########## Inicio ##################
 
-#include<stdio.h> 
+#include<stdio.h>
 
 int main(){
 
@@ -85,7 +85,7 @@ $ Idade: 30 anos
 ```
 ########## Inicio ##################
 
-#include<stdio.h> 
+#include<stdio.h>
 
 int main(int arg, char *argv[]){
 
@@ -129,7 +129,7 @@ $ Ola mundo cruel! Ola universo ingrato!
 int main(){
 	char Linha[100];
 	char *result;
-	FILE *arq; 
+	FILE *arq;
 	arq = fopen("ola.txt","rt");
 
 	if (arq == NULL)
@@ -148,7 +148,7 @@ int main(){
 	fclose(arq);
 	printf("Os dados foram gravados com sucesso! \n");
 
-return 0; 
+return 0;
 }
 
 ########## FIM ##################

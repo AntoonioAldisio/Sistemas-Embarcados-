@@ -1,15 +1,18 @@
-#include <unistd.h>
 #include <stdio.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <stdlib.h>
 
-int fd; 
-char c;
-fd = open("/tmp/ola_mundo.txt", O_WRONLY);
+int main(){
 
-if (fp ==-1)
-{
-	printf("Erro na abertura do arqivo. \n ");
-	exit(-1);
+int fd;
+char c[] = "Ola mundo !!  ";
+fd = open("ola_mundo.txt", O_WRONLY|O_CREAT);
+
+for(int i =0;i<=c[i];i++){
+	write(fd,&(c[i]),1);
 }
 
-ssize_t read("ola mundo", O_WRONLY);
-close (fp);
+close (fd);
+return 0;
+}
