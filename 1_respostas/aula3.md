@@ -9,9 +9,9 @@ Para todas as questões, compile-as com o gcc e execute-as via terminal.
 $ ./ola_usuario_1
 $ Digite o seu nome: Eu
 $ Ola Eu
- 
+
 ###### Codigo trabalhado  ######
- 
+
 #include <stdio.h>
 
 
@@ -47,19 +47,19 @@ $ Digite o seu nome: "Eu Mesmo"
 
 $ echo Eu | ./ola_usuario_1
 
-	a saida apresentada é Digite o seu nome Ola EU 
+	a saida apresentada é Digite o seu nome Ola EU
 
 (d) Se é usado um pipe com mais de um nome. Por exemplo:
 
 $ echo Eu Mesmo | ./ola_usuario_1
 
-	a saida apresentada é Digite o seu nome Ola EU 
+	a saida apresentada é Digite o seu nome Ola EU
 
 (e) Se é usado um pipe com mais de um nome entre aspas duplas. Por exemplo:
 
 $ echo "Eu Mesmo" | ./ola_usuario_1
 
-	a saida apresentada é Digite o seu nome Ola EU 
+	a saida apresentada é Digite o seu nome Ola EU
 
 (f) Se é usado o redirecionamento de arquivo. Por exemplo:
 
@@ -93,8 +93,8 @@ $ Ola Eu
 (a) Se o usuário insere mais de um nome.
 
 $ ./ola_usuario_2 Eu Mesmo
- Ola Eu 
- 
+ Ola Eu
+
 (b) Se o usuário insere mais de um nome entre aspas duplas. Por exemplo:
 
 $ ./ola_usuario_2 "Eu Mesmo"
@@ -103,12 +103,12 @@ $ ./ola_usuario_2 "Eu Mesmo"
 (c) Se é usado um pipe. Por exemplo:
 
 $ echo Eu | ./ola_usuario_2
-  Olá (null) 
+  Olá (null)
 
 (d) Se é usado um pipe com mais de um nome. Por exemplo:
 
 $ echo Eu Mesmo | ./ola_usuario_2
-  Olá (null) 
+  Olá (null)
 
 (e) Se é usado um pipe com mais de um nome entre aspas duplas. Por exemplo:
 
@@ -119,7 +119,7 @@ $ echo Eu Mesmo | ./ola_usuario_2
 
 $ echo Ola mundo cruel! > ola.txt
 $ ./ola_usuario_2 < ola.txt
-  Olá (null) 
+  Olá (null)
 
 
 
@@ -168,9 +168,9 @@ return 0;
 
 ###### Fim #######
 
-    Crie uma função que retorna a quantidade de caracteres em uma string, usando o seguinte protótipo: int Num_Caracs(char *string); Salve-a em um arquivo separado chamado 'num_caracs.c'. Salve o protótipo em um arquivo chamado 'num_caracs.h'. Compile 'num_caracs.c' para gerar o objeto 'num_caracs.o'.
+Crie uma função que retorna a quantidade de caracteres em uma string, usando o seguinte protótipo: int Num_Caracs(char *string); Salve-a em um arquivo separado chamado 'num_caracs.c'. Salve o protótipo em um arquivo chamado 'num_caracs.h'. Compile 'num_caracs.c' para gerar o objeto 'num_caracs.o'.
 
-    Re-utilize o objeto criado na questão 8 para criar um código que imprime cada argumento de entrada e a quantidade de caracteres de cada um desses argumentos. Por exemplo, considerando que o código criado recebeu o nome de 'ola_num_caracs_1':
+Re-utilize o objeto criado na questão 8 para criar um código que imprime cada argumento de entrada e a quantidade de caracteres de cada um desses argumentos. Por exemplo, considerando que o código criado recebeu o nome de 'ola_num_caracs_1':
 
 $ ./ola_num_caracs_1 Eu Mesmo
 $ Argumento: ./ola_num_caracs_1 / Numero de caracteres: 18
@@ -185,5 +185,3 @@ $ ./ola_num_caracs_2 Eu Mesmo
 $ Total de caracteres de entrada: 25
 
     Crie um Makefile para a questão anterior.
-
-
