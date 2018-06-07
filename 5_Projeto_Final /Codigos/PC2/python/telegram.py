@@ -9,21 +9,27 @@ def handle(msg):
     print(command, chat_id)
 
 #Inicio de conversa
+
     if command == 'Ola':
         bot.sendMessage(chat_id, 'Olá Mestre, o que você deseja? ')
+    if command == 'Eaw':
+        bot.sendMessage(chat_id, 'Olá Mestre, o que você deseja? ')
+    if command == 'eaw':
+        bot.sendMessage(chat_id, 'Olá Mestre, o que você deseja?')
     if command == 'oi':
         bot.sendMessage(chat_id, 'Olá Mestre, o que você deseja? ')
     if command == 'ola':
         bot.sendMessage(chat_id, 'Olá Mestre, o que você deseja? ')
     if command == 'Oi':
         bot.sendMessage(chat_id, 'Olá Mestre, o que você deseja? ')
+
 # Cadastra novo usuario
     if command == 'Cadastrar':
         bot.sendMessage(chat_id, 'Informe o nome do usuario')
-
+    
 # Verificar ultima entrada
 
-# Deletar usuario        
+# Deletar usuario
 
 
 bot = telepot.Bot('556806366:AAH9OIYZwwKapLkZrs7fYQU-NdUF2H9MuDc')
