@@ -122,7 +122,7 @@ def historico(bot,update):
 def main():
     """Start the bot."""
     # Create the EventHandler and pass it your bot's token.
-    updater = Updater("556806366:AAH9OIYZwwKapLkZrs7fYQU-NdUF2H9MuDc")
+    updater = Updater("")
     #bot = telegram.Bot(token='556806366:AAH9OIYZwwKapLkZrs7fYQU-NdUF2H9MuDc')
     print('Lendo...')
     # Get the dispatcher to register handlers
