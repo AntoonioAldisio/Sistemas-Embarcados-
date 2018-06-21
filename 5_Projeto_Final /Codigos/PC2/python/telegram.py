@@ -32,7 +32,7 @@ def handle(msg):
 # Deletar usuario
 
 
-bot = telepot.Bot('556806366:AAH9OIYZwwKapLkZrs7fYQU-NdUF2H9MuDc')
+bot = telepot.Bot('')
 MessageLoop(bot, handle).run_as_thread()
 print ('lendo ...')
 
